@@ -1,0 +1,238 @@
+.CardExterior {
+    height: 82vh;
+    width: 80vw;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    // background-color: rgb(0, 145, 255);
+    background: rgb(63, 110, 157);
+    background: linear-gradient(77deg, rgb(41 121 201) 41%, rgb(0, 47, 93) 100%);
+    overflow: scroll;
+}
+
+.secondColumn {
+    background-color: rgb(199 199 199 / 11%);
+    padding: 15px;
+}
+
+.secColumnFirstCard {
+    border-width: 2px;
+    border-color: #fca121;
+
+    .ant-card-body {
+        padding: 15px !important
+    }
+}
+
+.suncard {
+    margin-top: 3.5vh;
+    border-width: 2px;
+    border-color: #fca121;
+}
+
+.outerRow {
+    height: 76vh;
+}
+
+.gc {
+    height: 20vh;
+}
+
+.searchinput {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.searchBar {
+    display: flex;
+    width: 57vw;
+
+
+    input {
+        color: #145393;
+        font-weight: 600;
+    }
+
+    :where(.css-dev-only-do-not-override-26rdvq).ant-btn-primary {
+        color: #fca121;
+        background-color: #0a5bac;
+        border-width: 1px;
+        border-color: #fca121;
+    }
+}
+
+.searchIcon {
+    font-size: 2.5em;
+    height: 40px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.loactionHeader {
+    text-align: center;
+    color: white;
+
+    h1 {
+        margin-bottom: 0px !important;
+        font-size: 2rem;
+        margin-top: 2vh;
+        text-shadow: 2px 1px 20px #0b0a0a54;
+    }
+
+    h2 {
+        margin-top: 0px;
+        font-size: 0.8rem;
+        margin-bottom: 4vh;
+    }
+}
+
+.temperature {
+    h1 {
+        font-size: 2.5rem;
+        color: #fca121;
+        margin: 0px !important;
+    }
+
+    div {
+        color: #0556a8;
+    }
+}
+
+.extraDetails {
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-top: 13px;
+    color: #0556a8;
+    justify-content: center;
+
+    span+span {
+        margin-left: 5px;
+    }
+}
+
+.progressCard {
+    text-align: center;
+    height: 181px;
+    border-width: 2px;
+    border-color: #fca121;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    .CircularProgressbar {
+        display: inline-block;
+        width: 106px;
+        vertical-align: middle;
+    }
+
+    .CircularProgressbar+.CircularProgressbar {
+        margin-left: 3vw;
+    }
+
+    .CircularProgressbar .CircularProgressbar-path {
+        stroke: #0a5bac;
+    }
+
+    .CircularProgressbar .CircularProgressbar-text {
+        fill: #fca121;
+        font-weight: 700;
+    }
+
+    .CircularProgressbar .CircularProgressbar-trail {
+        stroke: #0a5bac4a;
+    }
+
+}
+
+.rightCard {
+    border-width: 2px;
+    border-color: #fca121;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    .ant-card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.progressText {
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #04488d;
+}
+
+.sunRiseImage {
+    // height: 100%;
+    width: 100%;
+}
+
+.sunriseText {
+    color: rgb(16 77 165 / 82%);
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.sunriseTextDetails {
+    color: #04488d;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #175a9c;
+}
+
+.logoFont {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fca121;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-tabs {
+    color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fca121;
+}
+
+@media (max-width:577px) {
+    .progressCard {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        height: auto;
+
+        .ant-col {
+            display: grid;
+            justify-items: center;
+            // align-items: center;
+        }
+        .CircularProgressbar{
+            width: 80%;
+        }
+    }
+    .WeatherCard{
+        height: 25vh;
+        min-width: 28vw;
+        // width: 25vw;
+        .ant-card-body{
+            width:auto ;
+        }
+    }
+    .weatherCardLine{
+        width: 68vw;
+        margin-bottom: 3vh;
+    }
+
+    .searchBar {
+        width: 73vw;
+    }
+
+    .loactionHeader {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+}
