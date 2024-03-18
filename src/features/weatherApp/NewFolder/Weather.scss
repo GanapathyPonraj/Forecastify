@@ -110,14 +110,16 @@
 
 .progressCard {
     text-align: center;
-    height: 181px;
+    // height: 181px;
+    height: max-content;
     border-width: 2px;
     border-color: #fca121;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
     .CircularProgressbar {
         display: inline-block;
-        width: 106px;
+        width: 60%;
+        margin-top: 2vh;
         vertical-align: middle;
     }
 
@@ -148,6 +150,7 @@
     .ant-card-body {
         padding-left: 15px;
         padding-right: 15px;
+        height: 21vh;
     }
 }
 
@@ -197,7 +200,63 @@
     color: #fca121;
 }
 
-@media (max-width:577px) {
+//Tablet
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .weatherCardLine {
+        width: 75vw;
+    }
+
+    // .progressCard .CircularProgressbar{
+    //     width: 8vw;
+    // }
+    .WeatherCard {
+        height: 30vh;
+
+        .ant-card-body {
+            width: 14vw;
+        }
+    }
+
+    .sunRiseImage {
+        width: 80%;
+        margin-left: 6vw;
+    }
+
+    .searchBar {
+        width: 100%;
+    }
+
+    .rightCard {
+        height: 22vh;
+    }
+
+    .progressCard {
+        display: flex;
+        text-align: center;
+        height: 22vh;
+
+        .ant-card-body {
+            margin-top: -2vh;
+        }
+    }
+
+    .outerRow {
+        #weatherDetailsLeft {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #weatherDetailsRight {
+            margin-top: 4vh;
+            margin-bottom: 4vh;
+        }
+    }
+
+}
+
+//potrait phone 
+@media (min-width:350px) and (max-width:576px) {
     .progressCard {
         margin-top: 2vh;
         margin-bottom: 2vh;
@@ -208,19 +267,23 @@
             justify-items: center;
             // align-items: center;
         }
-        .CircularProgressbar{
-            width: 80%;
-        }
+
+        // .CircularProgressbar{
+        //     width: 80%;
+        // }
     }
-    .WeatherCard{
+
+    .WeatherCard {
         height: 25vh;
         min-width: 28vw;
+
         // width: 25vw;
-        .ant-card-body{
-            width:auto ;
+        .ant-card-body {
+            width: auto;
         }
     }
-    .weatherCardLine{
+
+    .weatherCardLine {
         width: 68vw;
         margin-bottom: 3vh;
     }
@@ -233,6 +296,10 @@
         h1 {
             font-size: 1.5rem;
         }
+    }
+
+    .progressCard .CircularProgressbar {
+        width: 85%;
     }
 
 }

@@ -98,7 +98,7 @@ function Weather() {
                         </div>
                         <Row>
                             {/* Weather Details Left */}
-                            <Col span={11} xl={11} xs={24}>
+                            <Col span={11} xl={11} lg={11} md={24} xs={24} id='weatherDetailsLeft'>
                                 <Card className='rightCard'>
                                     <Row style={{ textAlign: 'center', alignItems: 'center' }}>
                                         <Col span={12} className='temperature'>
@@ -118,9 +118,9 @@ function Weather() {
                                 </Card>
                             </Col>
                             {/* Weather Details Right */}
-                            <Col span={11} offset={1} xl={{span:11,offset:1}} xs={{span:24,offset:0}}>
+                            <Col span={11} offset={1} xl={{span:11,offset:1}} lg={{span:11,offset:1} } md={{span:24,offset:0}} xs={{span:24,offset:0}} id='weatherDetailsRight'>
                                 <Card className='progressCard'>
-                                    <Row style={{ textAlign: 'center'}}>
+                                    <Row style={{ textAlign: 'center',marginTop:'1vh'}}>
                                         <Col span={8}>
                                             <CircularProgressbar value={todayData ? todayData.current ? todayData.current.uv : 0 : 0} maxValue={11} text={`${todayData ? todayData.current ? todayData.current.uv : 0 : 0}`} />
                                             <div className='progressText'> UV Index </div>
