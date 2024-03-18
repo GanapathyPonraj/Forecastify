@@ -1,47 +1,65 @@
-# Getting Started with Create React App and Redux
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 
-## Available Scripts
+# 📖 Forecastify <a name="about-project"></a>
 
-In the project directory, you can run:
+**Forecastify** is a weather forecast application that I developed to showcase my front-end web development skills. The app allows users to view all essential weather information on a single screen, including current conditions, three-day forecasts, humidity, and wind speed. Designed to be cross-platform compatible, Forecastify delivers a seamless user experience on all devices. Additionally, the app is integrated with external APIs to provide accurate weather data. Through Forecastify, I demonstrate my expertise in creating user-friendly and responsive web applications that offer valuable functionality.
 
-### `npm start`
+## Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The frontend was made with react and can be found [here](https://github.com/GanapathyPonraj/Forecastify)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>SCSS</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>REST Api</li>
+    <li>REDUX</li>
+    <li>Antd</li>
+    <li>Vercel</li>
+  </ul>
+</details>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **All in one weather Forecast App**
+- **Prediction for three days**
+- **Cross Platform Compatible**
+- **Parterned with open weather API for accuracy**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Live Demo Link](https://forecastify-six.vercel.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👥 Authors <a name="authors"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Ganapathy Ponraj**
 
-## Learn More
+- GitHub: [@GanapathyPonraj](https://github.com/GanapathyPonraj)
+- LinkedIn: [@Ganapathy Ponraj](https://www.linkedin.com/in/techieemma/](https://www.linkedin.com/in/ganapathy-ponraj-b58b041a9/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Forecastify
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Adding more prediction days and,weeks,months**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
